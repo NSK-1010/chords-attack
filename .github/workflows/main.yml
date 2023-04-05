@@ -24,7 +24,9 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
       - name: install pnpm
         if: matrix.platform == 'windows-latest'
-        run: iwr https://get.pnpm.io/install.ps1 -useb | iex
+        run: |
+          iwr https://get.pnpm.io/install.ps1 -useb | iex
+          Restart-Service powershell
       - name: install dependencies (ubuntu only)
         if: matrix.platform == 'ubuntu-20.04'
         run: |
