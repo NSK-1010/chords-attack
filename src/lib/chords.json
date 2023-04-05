@@ -1,0 +1,64 @@
+{
+    "chords": [
+        {
+            "name": "",
+            "component": [0, 4, 7]
+        },
+        {
+            "name": "m",
+            "component": [0, 3, 7]
+        },
+        {
+            "name": "7",
+            "component": [0, 4, 7, 10]
+        },
+        {
+            "name": "m7",
+            "component": [0, 3, 7, 10]
+        },
+        {
+            "name": "M7",
+            "component": [0, 4, 7, 11]
+        },
+        {
+            "name": "mM7",
+            "component": [0, 3, 7, 11]
+        },
+        {
+            "name": "sus4",
+            "component": [0, 5, 7]
+        },
+        {
+            "name": "7sus4",
+            "component": [0, 5, 7, 10]
+        },
+        {
+            "name": "M7sus4",
+            "component": [0, 5, 7, 11]
+        },
+        {
+            "name": "aug",
+            "component": [0, 4, 8]
+        },
+        {
+            "name": "aug7",
+            "component": [0, 4, 8, 10]
+        },
+        {
+            "name": "augM7",
+            "component": [0, 4, 8, 11]
+        },
+        {
+            "name": "dim",
+            "component": [0, 3, 6]
+        },
+        {
+            "name": "dim7",
+            "component": [0, 3, 6, 9]
+        },
+        {
+            "name": "dimM7",
+            "component": [0, 3, 6, 11]
+        }
+    ]
+}
