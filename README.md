@@ -1,7 +1,11 @@
-# Tauri + Svelte + Typescript
+# Chord Attack
+春休みの課題のやつ
 
-This template should help get you started developing with Tauri, Svelte and TypeScript in Vite.
+## Used Frameworks
+- [Tauri](https://tauri.app)
+- [Svelte](https://svelte.dev)
+- [Vite](https://vitejs.dev)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+## License
+いつも通りMIT Licenseで公開します。
