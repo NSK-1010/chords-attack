@@ -172,7 +172,7 @@
                 on:click={() => onclick(key)}
                 disabled
             >
-                <div class="w-full h-full"></div>
+                <span class="block w-full h-full"></span>
             </button>
         {/each}
     </div>
