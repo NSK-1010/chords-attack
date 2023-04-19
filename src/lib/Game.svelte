@@ -53,9 +53,9 @@
     function onclick(keynum: number) {
         selected[keynum] = selected[keynum] ? false : true
         if (selected[keynum]) {
-            document.querySelector("#key" + keynum + " div").setAttribute("id", "selected")
+            document.querySelector("#key" + keynum + " span").setAttribute("id", "selected")
         } else {
-            document.querySelector("#key" + keynum + " div").removeAttribute("id")
+            document.querySelector("#key" + keynum + " span").removeAttribute("id")
         }
     }
 
@@ -88,7 +88,7 @@
         }
 
         selected.fill(false)
-        for (let key_elem of document.querySelectorAll(".keyboard div")) {
+        for (let key_elem of document.querySelectorAll(".keyboard span")) {
             key_elem.removeAttribute("id")
         }
 
