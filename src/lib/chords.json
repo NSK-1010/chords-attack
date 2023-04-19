@@ -41,6 +41,30 @@
             "component": [0, 3, 7, 11, 14]
         },
         {
+            "name": "m11",
+            "component": [0, 3, 7, 10, 14, 17]
+        },
+        {
+            "name": "M11",
+            "component": [0, 4, 7, 11, 14, 17]
+        },
+        {
+            "name": "mM11",
+            "component": [0, 3, 7, 11, 14, 17]
+        },
+        {
+            "name": "m13",
+            "component": [0, 3, 7, 10, 14, 17, 21]
+        },
+        {
+            "name": "M13",
+            "component": [0, 4, 7, 11, 14, 17, 21]
+        },
+        {
+            "name": "mM13",
+            "component": [0, 3, 7, 11, 14, 17, 21]
+        },
+        {
             "name": "sus4",
             "component": [0, 5, 7]
         },
@@ -59,6 +83,14 @@
         {
             "name": "M9sus4",
             "component": [0, 5, 7, 11, 14]
+        },
+        {
+            "name": "13sus4",
+            "component": [0, 5, 7, 10, 14, 21]
+        },
+        {
+            "name": "M13sus4",
+            "component": [0, 5, 7, 11, 14, 21]
         },
         {
             "name": "aug",
@@ -81,6 +113,22 @@
             "component": [0, 4, 8, 11, 14]
         },
         {
+            "name": "aug11",
+            "component": [0, 4, 8, 10, 14, 17]
+        },
+        {
+            "name": "augM11",
+            "component": [0, 4, 8, 11, 14, 17]
+        },
+        {
+            "name": "aug13",
+            "component": [0, 4, 8, 10, 14, 17, 21]
+        },
+        {
+            "name": "augM13",
+            "component": [0, 4, 8, 11, 14, 17, 21]
+        },
+        {
             "name": "dim",
             "component": [0, 3, 6]
         },
@@ -99,6 +147,18 @@
         {
             "name": "dimM9",
             "component": [0, 3, 6, 11, 14]
+        },
+        {
+            "name": "dim11",
+            "component": [0, 3, 6, 9, 14, 17]
+        },
+        {
+            "name": "dimM11",
+            "component": [0, 3, 6, 11, 14, 17]
+        },
+        {
+            "name": "φ",
+            "component": [0, 3, 6, 10]
         }
     ]
 }
