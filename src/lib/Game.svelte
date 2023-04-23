@@ -135,8 +135,12 @@
         @apply inline-flex;
     }
 
-    #selected {
-        @apply bg-cyan-400/25;
+    .whitekey:has(#selected) {
+        @apply bg-[#bff2fa];
+    }
+
+    .blackkey:has(#selected) {
+        @apply bg-[#093c44];
     }
 </style>
 
@@ -172,7 +176,7 @@
                 on:click={() => onclick(key)}
                 disabled
             >
-                <span class="block w-full h-full"></span>
+                <span></span>
             </button>
         {/each}
     </div>
