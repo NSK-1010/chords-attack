@@ -1,6 +1,6 @@
 [package]
 name = "chords-attack"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Tauri App"
 author = "nsk-1010"
 license = "MIT"
